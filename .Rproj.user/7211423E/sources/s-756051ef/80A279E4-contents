@@ -1,0 +1,29 @@
+---
+title: "Project 1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data101 Project 
+
+```{r}
+fire <- datasets_720_1344_database
+fire
+```
+#Print first rows 
+```{r}
+head(fire)
+```
+#Print last rows 
+```{r}
+tail(fire)
+```
+#Structure of dataset 
+```{r}
+str(fire)
+```
+#Initial Observations: Alot of deaths for Sep 11,2001. No ages listed for any of those deaths. No distinction of gender or ethnicity, would be difficult to infer any of that. Can be a way to improve this dataset in the future. 
+

@@ -1,0 +1,5 @@
+"0","firefighters <- filter(firefighters, firefighters$X != ""Street/Road"") %>% select(-X)"
+"2","Error: Problem with `filter()` input `..1`.
+[31mx[39m Input `..1` must be of size 2004 or 1, not size 0.
+[34mℹ[39m Input `..1` is `firefighters$X != ""Street/Road""`.
+"

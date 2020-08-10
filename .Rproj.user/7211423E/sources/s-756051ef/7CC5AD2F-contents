@@ -1,0 +1,27 @@
+---
+title: "Project 1"
+output: html_document
+---
+
+#Dataset 
+```{r}
+fire <- datasets_720_1344_database
+fire
+```
+#What is the data about: firefighter deaths. 
+#Top of data 
+```{r}
+head(fire)
+```
+#Bottom of Data 
+```{r}
+tail(fire)
+```
+#Clean up data: removing column 'X14'
+```{r}
+install.packages("dplyr")
+library(dplyr)
+fire2 <-select(fire,-X14) 
+fire2
+```
+
